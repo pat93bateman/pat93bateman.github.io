@@ -1,81 +1,94 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="contact.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-</head>
-<body style="background-image: url(https://source.unsplash.com/650x550)">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form || Learning robo</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <div class="container">
-        <header>
-            <h1>Contact Us</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam totam iure vitae nesciunt quaerat sed, et ullam placeat ut? Impedit dolorem nostrum itaque molestias nemo delectus animi fuga illum magnam earum pariatur reiciendis, explicabo id velit facilis, necessitatibus cum! Magnam.</p>
-        </header>
-        <div class="content">
-            <div class="content-form">
-                <section>
-                    <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
-                    <h2>address</h2>
-                    <p>
-                        Lorem ipsum dolor sit. <br>
-                        Lorem, ipsum dolor. <br>
-                        lorem
-                    </p>
-                </section>
+      
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Let's get in touch</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            dolorum adipisci recusandae praesentium dicta!
+          </p>
 
-                <section>
-                    <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
-                    <h2>Phone</h2>
-                    <p>123-456-78901548</p>
-                </section>
-
-                <section>
-                    <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
-                    <h2>E-mail</h2>
-                    <p>dghdgqd@temporary.net</p>
-                </section>
+          <div class="info">
+            <div class="information">
+             
+              <p>92 Cherry Drive Uniondale, NY 11553</p>
             </div>
-        </div>
-
-      <form>
-        <div class="form">
-            <div class="right">
-              <div class="contact-form">
-                  <input type="text" required>
-                  <span>Full Name</span>
-              </div>
-  
-              <div class="contact-form">
-                  <input type="E-mail" required>
-                  <span>E-mail Id</span>
-              </div>
-              <div class="contact-form">
-                  <textarea name="text">
-                    
-                  </textarea>
-                  <span> Type your Message....</span>
-              </div>
-  
-              <div class="contact-form">
-                  <input type="submit" name="submit">
-              </div>
-              </div>
+            <div class="information">
+              
+              <p>lorem@ipsum.com</p>
+            </div>
+            <div class="information">
+              
+              <p>123-456-789</p>
             </div>
           </div>
-    </form>
-        <div class="media">
-            <li><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></li>
-            <li><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></li>
-            <li><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></li>
-            <li><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></li>
-        </div>
-        <div class="empty">
 
+          <div class="social-media">
+            <p>Connect with us :</p>
+            <div class="social-icons">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div><br>
+            <div class="credit">Made with <span style="color:tomato">❤</span> by <a href="https://www.learningrobo.com/">Learning Robo</a></div>
+          </div>
         </div>
-    </div>    
-</body>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="index.html" autocomplete="off">
+            <h3 class="title">Contact us</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" />
+              <label for="">Username</label>
+              <span>Username</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
-	
